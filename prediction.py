@@ -1,5 +1,7 @@
 import torch
 import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 import argparse
 from src import get_data,get_prediction,check_input
 
