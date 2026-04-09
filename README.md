@@ -1,6 +1,6 @@
 # Protein Function Prediction
 
-## Installation
+## Installation (only for linux)
 1. create environment
 
 ```
@@ -13,3 +13,5 @@ conda activate mvtdl
 ```
 pip install -r requirements.txt
 ```
+
+3. You need to install Interproscan in your server and make it a global call, refer to (https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html)
