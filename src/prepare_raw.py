@@ -5,6 +5,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 from transformers import T5Tokenizer, T5EncoderModel
+from transformers import logging
+logging.set_verbosity_error()
 import re
 import numpy as np
 import time
