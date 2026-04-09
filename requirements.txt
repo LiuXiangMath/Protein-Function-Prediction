@@ -1,0 +1,8 @@
+torch
+transformers
+sentencepiece
+protobuf
+esm
+httpx
+h5py
+torch_geometric
