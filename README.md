@@ -1,6 +1,6 @@
 # Protein Function Prediction
 
-## Installation (only for linux)
+## Installation (only for linux x86_64)
 1. create environment
 
 ```
