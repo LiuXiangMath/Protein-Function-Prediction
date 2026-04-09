@@ -1,24 +1,24 @@
 # Protein Function Prediction
 
-## Installation (only for linux x86_64)
-1. create environment
+## Installation (Linux x86_64 only)
+1. Create the environment
 
 ```
 conda create -n mvtdl python=3.10 -y
 conda activate mvtdl
 ```
 
-2. install required packages
+2. Install required packages
 
 ```
 pip install -r requirements.txt
 ```
 
-3. You need to install Interproscan in your server and make it a global call, refer to (https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html)
+3. You need to install Interproscan on your server and make it available as a global command. Please refer to (https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html)
 
 
 ## Usage
-run the following code to get predictions, input your sequence to the parameter --seq
+Run the following command to get predictions. Replace `YourProteinSeq` with your protein sequence.
 ```
 python prediction.py --seq YourProteinSeq
 ```
