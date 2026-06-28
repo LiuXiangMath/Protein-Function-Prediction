@@ -14,7 +14,7 @@ conda activate mvtdl
 pip install -r requirements.txt
 ```
 
-3. Download the pretrained models from [here](https://weilab.math.msu.edu/Downloads/MVTDL/model/models.zip). After downloading, extract the archive and move the three model files into `src/checkpoint/`
+3. Download the pretrained models from [here](https://weilab.math.msu.edu/Downloads/MVTDL/model/model.zip). After downloading, extract the archive and move the three model files into `src/checkpoint/`
 
 4. You need to install Interproscan on your server and make it available as a global command. Please refer to [here](https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html)
    
