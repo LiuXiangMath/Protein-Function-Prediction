@@ -3,7 +3,7 @@ import os
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 import argparse
-from src import get_data,get_prediction,check_input
+from src import get_data,get_prediction_5fold,check_input
 
 
 
@@ -31,7 +31,7 @@ def main():
     
     # prediction
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    prediction = get_prediction(model_folder,dataloader,device)
+    prediction = get_prediction_5fold(model_folder,dataloader,device)
     
     print("Input sequence:", args.seq)
     print(f'Predicted functions are: {prediction}')
