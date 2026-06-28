@@ -29,7 +29,7 @@ python prediction.py --seq YourProteinSeq
 ## Example
 If you run:
 ```
-python prediction.py GEYFTLQIRGRERFEMFRELNEALELKDAQAG
+python prediction.py --seq GEYFTLQIRGRERFEMFRELNEALELKDAQAG
 ```
 The output is 
 ```
